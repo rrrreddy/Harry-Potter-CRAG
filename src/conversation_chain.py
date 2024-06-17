@@ -15,7 +15,7 @@ import logging
 setup_environment()
 
 # Load and process data
-file_url = "https://github.com/rrrreddy/Datasets/blob/main/harrypotter_all_books.pdf"
+file_url = "https://kvongcmehsanalibrary.wordpress.com/wp-content/uploads/2021/07/harrypotter.pdf"
 split_pages = load_and_split_pdf(file_url)
 
 # Create embeddings

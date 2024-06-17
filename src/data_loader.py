@@ -1,9 +1,9 @@
-from langchain_community.document_loaders import OnlinePDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import logging
 
 def load_and_split_pdf(file_url):
-    loader = OnlinePDFLoader(file_url)
+    loader = PyMuPDFLoader(file_url)
     try:
         pages = loader.load()
         logging.info(f"Successfully loaded {len(pages)} pages.")
