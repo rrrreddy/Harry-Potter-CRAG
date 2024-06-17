@@ -23,9 +23,6 @@ This project implements a conversational chatbot using Retrieval-Augmented Gener
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -46,7 +43,7 @@ The Harry Potter Conversational RAG Chatbot uses Langchain, Cohere, Pinecone, an
 - Python 3.11
 - Docker (for deployment)
 
-### Setup
+## Setup
 
 1. Clone the repository:
 
@@ -73,7 +70,7 @@ OPENAI_API_KEY=YOUR_API_KEY
 Replace your_cohere_api_key, your_langchain_api_key, and your_pinecone_api_key with your actual API keys.
 
 
-### Usage
+## Usage
 
 1. Start the Streamlit application:
 ```
@@ -100,7 +97,7 @@ Harry-Potter-CRAG/
 │   └── conversation_chain.py
 └── .gitignore
 
-# Description
+## Description
 - `app.py`: Main entry point for the Streamlit application.
 - `requirements.txt`: List of required Python packages.
 - `.env`: Environment variables configuration.
@@ -114,5 +111,5 @@ Harry-Potter-CRAG/
 - `qa_chain.py`: Code for creating the question-answering chain.
 - `conversation_chain.py`: Code for building the conversational RAG chain.
 
-License
+## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
