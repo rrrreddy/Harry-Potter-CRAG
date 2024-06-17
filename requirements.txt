@@ -1,0 +1,11 @@
+langchain
+bs4
+pymupdf
+langchain-pinecone
+sentence_transformers
+langchain_community
+tokenizers==0.19.1
+cohere
+langchain_cohere
+python-dotenv
+streamlit
